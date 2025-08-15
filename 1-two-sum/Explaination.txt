@@ -1,1 +1,10 @@
+## My Approach......
 
+> firsly i have created a vector name "indices" for storing indices for final output
+> then after i have used a for loop traversing every element throughout the length 
+> then after i have used another loop traversing from next element in order to make pair of two numbers to calculate the sum
+> then after i've compared the target sum with pair sum of indices i and j
+> then after the condition is true i have pushed the indices of both ith and jth element into the vector array that i had created at the first
+> then after i have returned the vector array containing indices of that two numbers whose sum is equals to the target sum 
+
+Thank you for your valuable time .....
