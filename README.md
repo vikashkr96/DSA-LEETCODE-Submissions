@@ -1,6 +1,6 @@
-# LeetCode Solutions
+# DSA-LEETCODE-Submissions
 
-Welcome to my **LeetCode solutions repository**!  
+Welcome to my **DSA-LEETCODE-Submissions repository**!  
 This repository serves as a comprehensive record of my journey through various **Data Structures and Algorithms (DSA)** problems on LeetCode.  
 Each successful submission is **automatically synced** here using **LeetSynk** to maintain an organized and up-to-date log of my progress.
 
