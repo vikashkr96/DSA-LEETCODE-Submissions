@@ -1,0 +1,34 @@
+// Explaination of my approach 
+
+class Solution {
+public:
+    int majorityElement(vector<int>& nums) {
+        int n = nums.size();
+        for (int val : nums) {
+            int freq = 0;
+            for (int el : nums) {
+                if (el == val) {
+                    freq++;
+                }
+            }
+            if (freq > n / 2) {
+                return val;
+            }
+        }
+        return -1;
+    }
+};
+
+> Firstly, I have calculated n which stores the total number of elements in the array which is needed to compare the frequency of any element with n / 2 to check if it is the majority element.
+> Then, I have used a "for-each loop" to iterate over every element in the array which  ensures that each element is considered at least once.
+> For each element from the outer loop, I have initialized a variable freq with zero to store the count of how many times this element appears in the array. This variable is reset to 0 for each new element.
+> Then, I have used another "for-each loop" (inner loop) to compare the current element from the outer loop with every element in the array. If the two values are equal, I increment the freq by 1.
+> After counting, I compare freq with n / 2. If freq is greater, it means the current element occurs more than half the size of the array and is the majority element, so I return it.
+> If no element satisfies this condition after checking all elements, I return -1 to indicate no majority element exists.
+> Since, Two loops are used , its time complexity comes out to be o(n^2)
+
+//  I have also tried another approach to solve this called "Moore's Voting algorithm " which is the most optimised solution with o(n) time complexity
+
+Thanks for your valuable time , Have a nice day !
+
+
