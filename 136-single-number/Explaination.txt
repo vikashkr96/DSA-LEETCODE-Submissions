@@ -1,1 +1,30 @@
+# Explaination of my approach
+
+class Solution {
+public:
+    int singleNumber(vector<int>& nums) {
+        int ans = 0;
+
+        for(int val: nums){
+            ans = ans ^ val;
+        }
+        return ans;
+    }
+};
+
+// This approach is based on bit manupulation and its the most optimised one ......
+
+> Firstly i have initialised a variable "ans" with zoro for storing the final result 
+> Then after i havr used a 'For Each Loop' accesing every element ans takin XOR of that element will rest all elements and sroring it again and     again in thr same variable "ans"
+> Then after the completion of the loop , simply returned the output 
+> Let us talk how XOR works :
+0 ^ 0 = 0
+0 ^ 1 = 1
+1 ^ 0 = 1
+1 ^ 1 = 0 
+> Thats how it works ....
+> Since only one loop is used , the time complexity comes out to be o(n) . 
+
+Thanks For Your Valuable Time ... 
+
 
