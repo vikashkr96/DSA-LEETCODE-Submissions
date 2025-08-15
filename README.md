@@ -27,4 +27,30 @@ You'll generally find problems categorized by:
 
 - **Difficulty** – Easy, Medium, Hard  
 - **Problem ID/Name** – Each solution is stored in a dedicated file, often named after the LeetCode problem ID or name.  
-- **Approach Documentation** – Inside each problem folder, there’s an `explanation.txt` file where I detail my **thought process**, outline **possible solution strategies**, explain **why I chose a specific approach**, and include **time and space**
+- **Approach Documentation** – Inside each problem folder, there’s an `explanation.txt` file where I detail my **thought process**, outline **possible solution strategies**, explain **why I chose a specific approach**, and include **time and space complexity analysis**. This demonstrates my ability to **communicate technical reasoning effectively** — a skill crucial in technical interviews and collaborative environments.
+
+---
+
+## 👨‍💻 About Me
+
+I'm an **aspiring software engineer** actively seeking **job and internship opportunities**, particularly at companies like **Google**.  
+My passion lies in **building robust and efficient systems**, and I believe a **strong foundation in Data Structures and Algorithms** is crucial for that.
+
+This repository reflects my **commitment to mastering these core concepts**, and I'm always eager to learn and take on new challenges.
+
+---
+
+## 💻 Languages Used
+
+Most of the solutions are implemented in:
+
+- **C++**
+
+---
+
+## 📬 Connect With Me
+
+Feel free to explore my solutions. If you have any questions or would like to connect, please reach out!
+
+- **LinkedIn:** [www.linkedin.com/in/vikash-kumar-6a4a03321](https://www.linkedin.com/in/vikash-kumar-6a4a03321)  
+- **Email:** [vk4845646@gmail.com](mailto:vk4845646@gmail.com)  
