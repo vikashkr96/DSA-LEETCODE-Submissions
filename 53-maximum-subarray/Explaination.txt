@@ -1,0 +1,27 @@
+# Explaining My Approach.....
+
+class Solution {
+public:
+    int maxSubArray(vector<int>& nums) {
+        int cs = 0 ;
+        int ms = INT_MIN;
+
+        for(int val : nums){
+            cs += val;
+            ms = max(cs , ms);
+            if(cs<0){
+                cs = 0;
+            }
+        }
+        return ms;
+
+    }
+};
+
+> I have used "Kadane's Algorithm" to solve this because this is the most optimised , although i have used "brute force " approach 
+  but it uses two loops and its time complexity comes out to be O(n^2) .
+> Firstly I have initiallised two variables one 'cs' with zero to calculate current sum till the condition applied is satisfied and 
+  another 'ms' for storing the max sum ,when 'cs' becomes zero its previous value is comapred with max sum and if it is greater then 
+  max sum its storing in the max sum .
+> Then i have returned the max sum as an answer .
+> Time complexity comes out to be O(n) .
